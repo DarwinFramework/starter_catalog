@@ -1,0 +1,12 @@
+[dogs]
+name = "DOG Serialization"
+description = """
+A universal code generator based serialization library
+with almost zero boilerplate.
+"""
+category = "Serialization"
+depends = []
+[dogs.dependencies]
+dogs_core = "^1.0.0"
+[dogs.dev_dependencies]
+dogs_generator = "^1.0.1"
