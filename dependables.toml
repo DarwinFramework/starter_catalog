@@ -66,6 +66,7 @@ description = """
 A powerful http client library for dart.
 """
 category = "Web"
+depends = []
 [dio.dependencies]
 dio = "^4.0.6"
 [dio.dev_dependencies]
