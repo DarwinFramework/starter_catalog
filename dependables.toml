@@ -12,6 +12,21 @@ dogs_darwin = "^1.0.1-alpha"
 [dogs.dev_dependencies]
 dogs_generator = "^1.0.1"
 
+[drift]
+name = "DriftDB"
+description = """
+Persistence library for dart using sql3.
+"""
+category = "Database"
+depends = []
+[drift.dependencies]
+drift = "^2.4.2"
+sqlite3_flutter_libs = "^0.5.0"
+path_provider = "^2.0.0"
+path = "^1.8.3"
+[drift.dev_dependencies]
+drift_dev = "^2.4.1"
+
 [mongodb]
 name = "MongoDB Driver"
 description = """
@@ -34,17 +49,23 @@ depends = []
 mysql1 = "^0.20.0"
 [mysql.dev_dependencies]
 
-[drift]
-name = "DriftDB"
+[redis]
+name = "Redis Driver"
 description = """
-Persistence library for dart using sql3.
+Redis driver client library for dart.
 """
 category = "Database"
 depends = []
-[drift.dependencies]
-drift = "^2.4.2"
-sqlite3_flutter_libs = "^0.5.0"
-path_provider = "^2.0.0"
-path = "^1.8.3"
-[drift.dev_dependencies]
-drift_dev = "^2.4.1"
+[redis.dependencies]
+redis = "^3.1.0"
+[redis.dev_dependencies]
+
+[dio]
+name = "DIO"
+description = """
+A powerful http client library for dart.
+"""
+category = "Web"
+[dio.dependencies]
+dio = "^4.0.6"
+[dio.dev_dependencies]
