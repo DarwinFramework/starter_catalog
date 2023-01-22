@@ -103,3 +103,14 @@ depends = []
 [dio.dependencies]
 dio = "^4.0.6"
 [dio.dev_dependencies]
+
+[websocket]
+name = "Web Socket Channel"
+description = """
+Client library for connecting to web sockets.
+"""
+category = "Web"
+depends = []
+[websocket.dependencies]
+web_socket_channel = "^2.3.0"
+[websocket.dev_dependencies]
