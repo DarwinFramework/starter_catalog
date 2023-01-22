@@ -8,6 +8,7 @@ category = "Serialization"
 depends = []
 [dogs.dependencies]
 dogs_core = "^1.0.0"
+dogs_darwin = "^1.0.1-alpha"
 [dogs.dev_dependencies]
 dogs_generator = "^1.0.1"
 
