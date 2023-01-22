@@ -10,3 +10,25 @@ depends = []
 dogs_core = "^1.0.0"
 [dogs.dev_dependencies]
 dogs_generator = "^1.0.1"
+
+[mongodb]
+name = "MongoDB Driver"
+description = """
+Server-side driver library for MongoDB.
+"""
+category = "Database"
+depends = []
+[mongodb.dependencies]
+mongo_dart = "^0.8.2"
+[mongodb.dev_dependencies]
+
+[mysql]
+name = "MySQL Driver"
+description = """
+MySQL driver library based on SQLJocky
+"""
+category = "Database"
+depends = []
+[mysql.dependencies]
+mysql1 = "^0.20.0"
+[mysql.dev_dependencies]
