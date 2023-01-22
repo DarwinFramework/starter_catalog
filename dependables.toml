@@ -26,10 +26,25 @@ mongo_dart = "^0.8.2"
 [mysql]
 name = "MySQL Driver"
 description = """
-MySQL driver library based on SQLJocky
+MySQL driver library based on SQLJocky.
 """
 category = "Database"
 depends = []
 [mysql.dependencies]
 mysql1 = "^0.20.0"
 [mysql.dev_dependencies]
+
+[drift]
+name = "DriftDB"
+description = """
+Persistence library for dart using sql3.
+"""
+category = "Database"
+depends = []
+[drift.dependencies]
+drift = "^2.4.2"
+sqlite3_flutter_libs = "^0.5.0"
+path_provider = "^2.0.0"
+path = "^1.8.3"
+[drift.dev_dependencies]
+drift_dev: "^2.4.1"
