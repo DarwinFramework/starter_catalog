@@ -12,6 +12,39 @@ dogs_darwin = "^1.0.1-alpha"
 [dogs.dev_dependencies]
 dogs_generator = "^1.0.1"
 
+[dogs_yaml]
+name = "DOG Yaml"
+description = """
+Yaml extension for the DOG serialization library.
+"""
+category = "Serialization"
+depends = ["dogs"]
+[dogs_yaml.dependencies]
+dogs_yaml = "^1.0.0"
+[dogs_yaml.dev_dependencies]
+
+[dogs_toml]
+name = "DOG Toml"
+description = """
+Toml extension for the DOG serialization library.
+"""
+category = "Serialization"
+depends = ["dogs"]
+[dogs_toml.dependencies]
+dogs_toml = "^1.0.0"
+[dogs_toml.dev_dependencies]
+
+[dogs_cbor]
+name = "DOG Cbor"
+description = """
+Cbor extension for the DOG serialization library.
+"""
+category = "Serialization"
+depends = ["dogs"]
+[dogs_cbor.dependencies]
+dogs_cbor = "^1.0.0"
+[dogs_cbor.dev_dependencies]
+
 [drift]
 name = "DriftDB"
 description = """
