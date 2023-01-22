@@ -87,6 +87,7 @@ name = "PostgreSQL Driver"
 description = """
 Postgres driver library.
 """
+category = "Database"
 depends = []
 [postgres.dependencies]
 postgres = "^2.5.2"
