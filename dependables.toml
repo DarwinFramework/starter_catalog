@@ -82,6 +82,16 @@ depends = []
 mysql1 = "^0.20.0"
 [mysql.dev_dependencies]
 
+[postgres]
+name = "PostgreSQL Driver"
+description = """
+Postgres driver library.
+"""
+depends = []
+[postgres.dependencies]
+postgres = "^2.5.2"
+[postgres.dev_dependencies]
+
 [redis]
 name = "Redis Driver"
 description = """
