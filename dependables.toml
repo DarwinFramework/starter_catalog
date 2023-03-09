@@ -11,7 +11,7 @@ depends = []
 dogs_core = '^2.1.1'
 dogs_darwin = '^1.0.1-alpha.4'
 
-[dogs.dev_dependencies]
+[dogs.devDependencies]
 dogs_generator = '^2.1.1'
 
 [dogs_yaml]
@@ -25,7 +25,7 @@ depends = ['dogs']
 [dogs_yaml.dependencies]
 dogs_yaml = '^2.0.2'
 
-[dogs_yaml.dev_dependencies]
+[dogs_yaml.devDependencies]
 
 [dogs_toml]
 name = 'DOG Toml'
@@ -38,7 +38,7 @@ depends = ['dogs']
 [dogs_toml.dependencies]
 dogs_toml = '^2.0.2'
 
-[dogs_toml.dev_dependencies]
+[dogs_toml.devDependencies]
 
 [dogs_cbor]
 name = 'DOG Cbor'
@@ -51,7 +51,7 @@ depends = ['dogs']
 [dogs_cbor.dependencies]
 dogs_cbor = '^2.0.2'
 
-[dogs_cbor.dev_dependencies]
+[dogs_cbor.devDependencies]
 
 [drift]
 name = 'DriftDB'
@@ -67,7 +67,7 @@ sqlite3_flutter_libs = '^0.5.13'
 path_provider = '^2.0.13'
 path = '^1.8.3'
 
-[drift.dev_dependencies]
+[drift.devDependencies]
 drift_dev = '^2.5.2'
 
 [mongodb]
@@ -81,7 +81,7 @@ depends = []
 [mongodb.dependencies]
 mongo_dart = '^0.9.0'
 
-[mongodb.dev_dependencies]
+[mongodb.devDependencies]
 
 [mysql]
 name = 'MySQL Driver'
@@ -94,7 +94,7 @@ depends = []
 [mysql.dependencies]
 mysql1 = '^0.20.0'
 
-[mysql.dev_dependencies]
+[mysql.devDependencies]
 
 [postgres]
 name = 'PostgreSQL Driver'
@@ -107,7 +107,7 @@ depends = []
 [postgres.dependencies]
 postgres = '^2.6.1'
 
-[postgres.dev_dependencies]
+[postgres.devDependencies]
 
 [redis]
 name = 'Redis Driver'
@@ -120,7 +120,7 @@ depends = []
 [redis.dependencies]
 redis = '^3.1.0'
 
-[redis.dev_dependencies]
+[redis.devDependencies]
 
 [dio]
 name = 'DIO'
@@ -133,7 +133,7 @@ depends = []
 [dio.dependencies]
 dio = '^5.0.1'
 
-[dio.dev_dependencies]
+[dio.devDependencies]
 
 [websocket]
 name = 'Web Socket Channel'
@@ -146,4 +146,4 @@ depends = []
 [websocket.dependencies]
 web_socket_channel = '^2.3.0'
 
-[websocket.dev_dependencies]
+[websocket.devDependencies]
