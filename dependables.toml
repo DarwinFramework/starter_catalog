@@ -131,7 +131,7 @@ category = 'Web'
 depends = []
 
 [dio.dependencies]
-dio = '^5.0.1'
+dio = '^5.0.2'
 
 [dio.devDependencies]
 
